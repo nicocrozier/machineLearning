@@ -7,6 +7,8 @@ clf = tree.DecisionTreeClassifier()  #classifier
 
 clf = clf.fit(features, labels)     #learning algorythim
 
+print()
 print (clf.predict([[150,0]]))
+print()
 
 
